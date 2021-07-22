@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/hello', 'Pages\HelloController@show');
+Route::get('/user/{id}', 'Pages\UserController@show');
